@@ -1,0 +1,275 @@
+/* Start Body */
+body {
+    background-color:cornsilk;
+    color: purple;
+    font-family: Helvetica, Arial, Sans-serif ;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug*/
+.bg-blue {
+    background-color: palevioletred;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+.logo a {
+    text-decoration: none;
+}
+.logo h4 {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 0;
+}
+/*End Logo*/
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: aquamarine;
+    border-radius: 44px;
+    box-shadow: 
+        0 3px 5px -1px rgb(165, 42, 104)
+        0 6px 10px 0 rgb(165, 42, 104)
+        0 1px 18px 0 rgb(240, 127, 189)
+}
+
+.menu-primer li {
+    border-right: 2px solid whitesmoke;
+    display: inline-block;
+    margin: 0 -5px;
+}
+.menu-primer a{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 10px 32px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+
+}
+/* End Menu Primer */
+
+/* Start Anchor / Hyperlink */
+
+/* End Anchor / Hyperlink */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+.main-home-two {
+    float: right;
+    width: 49.5%
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 175px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: rgb(104, 245, 198);
+    border: 1px solid rgb(106, 233, 195);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 18px;
+    margin: 0;
+}
+.box-isi {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Strt Menu Sekunder */
+.menu-sekunder-one {
+    border-bottom: 1px solid white;
+    border-top: 1px solid whitesmoke;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+    list-style: none;
+}
+.menu-sekunder li {
+    list-style: disc;
+    list-style: none;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.manu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+/* Start Wow Factor */
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1576 {
+background-color: #fff;
+color: #444;
+display: inline-block;
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+margin: 8px;
+max-width: 315px;
+min-width: 230px;
+overflow: hidden;
+position: relative;
+text-align: center;
+width: 100%;
+}
+
+.snip1576 * {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-transition: all 0.45s ease;
+transition: all 0.45s ease;
+}
+
+.snip1576:after {
+background-color: #359ad8;
+height: 150%;
+bottom: -145%;
+content: '';
+left: 0;
+right: 0;
+position: absolute;
+-webkit-transition: all 0.5s linear;
+transition: all 0.5s linear;
+}
+
+.snip1576 img {
+vertical-align: top;
+max-width: 100%;
+backface-visibility: hidden;
+}
+
+.snip1576 figcaption {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+align-items: center;
+z-index: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+line-height: 1.1em;
+opacity: 0;
+-webkit-transition-delay: 0s;
+transition-delay: 0s;
+}
+
+.snip1576 h3 {
+font-size: 1em;
+font-weight: 400;
+letter-spacing: 1px;
+margin: 0;
+text-transform: uppercase;
+}
+
+.snip1576 h3 span {
+display: block;
+font-weight: 700;
+}
+
+.snip1576 a {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+
+.snip1576:hover > img,
+.snip1576.hover > img {
+opacity: 0.1;
+}
+
+.snip1576:hover:after,
+.snip1576.hover:after {
+bottom: 95%;
+}
+
+.snip1576:hover figcaption,
+.snip1576.hover figcaption {
+opacity: 1;
+-webkit-transition-delay: 0.4s;
+transition-delay: 0.4s;
+}
+
+
+/* Demo purposes only */
+
+body {
+/* background-color: #212121; */
+text-align: center;
+}
+/* End Wow Factor */
+
+
+/* Start Heading */
+h1 {
+    color: rgb(165, 42, 104);
+    font-size: 40px;
+}
+/* End Heading */
+
+/* Start Copyright */
+.copyright p{
+    font-size: 15px;
+}
+/* Start Copyright *
+
